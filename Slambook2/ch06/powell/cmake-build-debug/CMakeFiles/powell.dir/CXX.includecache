@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zpw/github/SLAM/slambook2/ch06/powell/main.cpp
+iostream
+-
+vector
+-
+ceres/ceres.h
+-
+gflags/gflags.h
+-
+glog/logging.h
+-
+

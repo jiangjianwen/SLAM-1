@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="imageBasics" targetName="imageBasics" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee72dd00-edcf-43ad-8ba2-c879cc6f0a2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch01/basic_transform_study/.idea/basic_transform_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch03/LaserUndistortion_ws/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch04/imlsMatcherProject/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch06/Ceres_ws/src/ceres/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch06/LSSLAMProject/src/ls_slam/include/ls_slam/ceres_solver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../laser_slam/ch06/LSSLAMProject/src/ls_slam/src/ceres_solver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_algorithm/slam_ws/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/OpenCV/ch01/useMat/.idea/useMat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/OpenCV/ch02/.idea/ch02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/OpenCV/ch02/matrix/.idea/matrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/RGB-D_to_pcl/.idea/RGB-D_to_pcl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/pcl_filter/.idea/pcl_filter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/.idea/ch02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/far_range/.idea/far_range.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/keypoint_narf_extraction/.idea/keypoint_narf_extraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/normal_estimation/.idea/normal_estimation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/pcl_visualization/.idea/pcl_visualization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch02/range_image_creation/.idea/range_image_creation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/Sophus/draw_Sophus/.idea/draw_Sophus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/Sophus/useSophus/.idea/useSophus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../slam_library/Sophus/绘制轨迹/.idea/Lecture3PlotTrajectory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch03/test7/.idea/test7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch03/useEigen/.idea/useEigen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch03/useGeometry/.idea/useGeometry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch04/useSophus/.idea/useSophus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch05/homework9/.idea/homework9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch05/imageBasics/.idea/imageBasics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch06/basic_transform_study/.idea/basic_transform_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch06/ceres_example/.idea/ceres_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch06/ceres_fitting/.idea/ceres_fitting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch06/g2o_curve_fitting/.idea/g2o_curve_fitting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch07/feature_extraction/.idea/feature_extraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch07/homework10/.idea/homework10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clean_test_results.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clean_test_results.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/download_extra_data.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/download_extra_data.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/doxygen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/doxygen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/run_tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/run_tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CMakeFiles/tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CTestConfiguration.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CTestConfiguration.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/.rosinstall" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/.rosinstall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/local_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/local_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/atomic_configure/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/bond_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/src/Odom_Calib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/src/Odom_Calib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/calib_odom_node.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_ros_gencfg.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/pcl_ros_gencfg.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/roscpp_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/std_srvs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/tf_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CMakeFiles/topic_tools_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/calib_odom.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/calib_odom.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odom.pc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odom.pc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/pkg.develspace.context.pc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/pkg.develspace.context.pc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/pkg.installspace.context.pc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/catkin_generated/pkg.installspace.context.pc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/calib_odom/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin/catkin_generated/version/package.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin/catkin_generated/version/package.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/generate_cached_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/.rosinstall" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/.rosinstall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/local_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/local_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/installspace/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/order_packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/order_packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/setup_cached.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_generated/setup_cached.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/catkin_make.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gmock.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googlemock/gtest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/gtest/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/minimal_project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/build/minimal_project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/.catkin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/.catkin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/.rosinstall" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/.rosinstall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/lib/calib_odom/calib_odom_node" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/lib/calib_odom/calib_odom_node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/lib/pkgconfig/calib_odom.pc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/lib/pkgconfig/calib_odom.pc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/local_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/local_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/share/calib_odom/cmake/calib_odomConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/devel/share/calib_odom/cmake/calib_odomConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/src/Odom_Calib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/src/Odom_Calib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laser_slam/ch02/odom_ws/src/calib_odom/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/cmake-build-debug/CMakeFiles/useEigen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/cmake-build-debug/CMakeFiles/useEigen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/Eigen/useEigen/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/OpenCV/ch02/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/OpenCV/ch02/saltimage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_create.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_create.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_downsampling.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_downsampling.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_filter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_filter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_matching.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_matching.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_read.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_read.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_visualize.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_visualize.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_write.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/chapter6_tutorials/src/pcl_write.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/my_pcl_conversion/src/example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam_library/PCL/ch01/catkin_ws/src/my_pcl_conversion/src/example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch07/feature_extraction/pose_estimation_2d2d.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../visual_slam/slam_book_learning/ch07/feature_extraction/pose_estimation_2d2d.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1WCZd5ibwlPYZAS3Kt2to0XKS3W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="ubuntu.png" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="imageBasics" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="imageBasics" RUN_TARGET_NAME="imageBasics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee72dd00-edcf-43ad-8ba2-c879cc6f0a2a" name="Default Changelist" comment="" />
+      <created>1578655620055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578655620055</updated>
+      <workItem from="1578655621546" duration="2353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
