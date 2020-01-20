@@ -25,10 +25,45 @@ Eigen库
 	安装:
 		sudo apt-get install libeigen3-dev
 	使用:
-		在CmakeLists中加入: include_directories("/usr/include/eigen3")
+		在CmakeLists中加入: 
+
+		include_directories("/usr/include/eigen3")
+		
 		注:Eigen库只有头文件不需要链接
 Sophus库
-	
+	安装:
+		注:如使用最新版本请到github自行下载
+		git clone https://github.com/gaoxiang12/slambook2
+		在3dpart中找到Sophus库
+		cd Sophus
+		mkdir build
+		cd build
+		cmake ..
+		make
+		sudo make install
+	使用:
+		在CmakeLists中加入:
+
+		find_package(Sophus REQUIRED)
+		include_directories(${Sophus_INCLUDE_DIRS})
+		target_link_libraries(execute_file_name ${Sophus_LIBRARIES})
+
+Ceres库
+	安装:
+		1.首先安装所需要的依赖
+			sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3 libgflags-dev libgoogle-glog-dev libgtest-dev
+		2.进入已经下载好的Ceres目录
+			cd Ceres
+			mkdir build
+			cmake ..
+			make
+			sudo make install
+		使用:
+			在CmakeLists中加入:
+
+			find_package( Ceres REQUIRED)
+			include_directories( ${CERES_INCLUDE_DIRS} )
+			target_link_libraries(execute_file_name  ${CERES_LIBRARIES})
 
 
 

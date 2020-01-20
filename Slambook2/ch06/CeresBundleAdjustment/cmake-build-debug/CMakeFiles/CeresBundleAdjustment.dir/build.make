@@ -79,6 +79,29 @@ CeresBundleAdjustment_EXTERNAL_OBJECTS =
 
 CeresBundleAdjustment: CMakeFiles/CeresBundleAdjustment.dir/main.cpp.o
 CeresBundleAdjustment: CMakeFiles/CeresBundleAdjustment.dir/build.make
+CeresBundleAdjustment: /usr/local/lib/libceres.a
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libglog.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.1
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libspqr.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libtbb.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libcholmod.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libccolamd.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libcamd.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libcolamd.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libamd.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/liblapack.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libf77blas.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libatlas.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/librt.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/liblapack.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libf77blas.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libatlas.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/librt.so
+CeresBundleAdjustment: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 CeresBundleAdjustment: CMakeFiles/CeresBundleAdjustment.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zpw/github/SLAM/Slambook2/ch06/CeresBundleAdjustment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CeresBundleAdjustment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CeresBundleAdjustment.dir/link.txt --verbose=$(VERBOSE)
