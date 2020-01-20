@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CeresBundleAdjustment.dir/main.cpp.o  -o CeresBundleAdjustment 

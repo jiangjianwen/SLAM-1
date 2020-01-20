@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zpw/github/SLAM/Slambook2/ch06/ceresCurveFitting2/main.cpp
+iostream
+-
+ceres/ceres.h
+-
+glog/logging.h
+-
+
