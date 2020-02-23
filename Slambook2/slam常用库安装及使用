@@ -64,8 +64,23 @@ Ceres库
 			find_package( Ceres REQUIRED)
 			include_directories( ${CERES_INCLUDE_DIRS} )
 			target_link_libraries(execute_file_name  ${CERES_LIBRARIES})
+OpenCV库
+	安装:
+		1.从OpenCV官网下载所需要的版本 推荐3.0以上的版本
+		2.安装OpenCV的依赖项
+			sudo apt-get install build-essential libgtk2.0-dev libvtk5-dev libjpeg-dev libtiff4-dev libjasper-dev libopenexr-dev libtbb-dev
+		3.编译软件包
+			cd OpenCV
+			mkdir build
+			cmake ..
+			make -j4
+			sudo make install
+	使用:
+		在CmakeLists中加入:
 
-
+		find_package( OpenCV REQUIRED )
+		include_directories(${OpenCV_INCLUDE_DIRS})		
+		target_link_libraries(execute_file_name ${OpenCV_LIBS})
 
 
 

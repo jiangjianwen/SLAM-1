@@ -1,0 +1,3 @@
+
+矩阵特征值,SVD分解参考博客: https://blog.csdn.net/billbliss/article/details/78579308
+
