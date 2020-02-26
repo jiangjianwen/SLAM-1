@@ -20,7 +20,9 @@ g2o是在SLAM邻域中广为使用的图优化库,主要完成对视觉里程计
 
 相关几篇参考博文如下:
 
-[高博:](https://www.cnblogs.com/gaoxiang12/p/5304272.html)
+[高博](https://www.cnblogs.com/gaoxiang12/p/5304272.html)
+
+![Image](https://github.com/zhoupengwei/SLAM/blob/master/img-folder/g2o.png)
 
 
 
