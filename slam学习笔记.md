@@ -77,7 +77,7 @@ optimizer.optimize(100);
 
    
    $$
-   H△X=-b,
+   H△X=-b
    $$
    (这部分数学知识参考)[博客](https://www.cnblogs.com/gaoxiang12/p/5244828.html)
 
