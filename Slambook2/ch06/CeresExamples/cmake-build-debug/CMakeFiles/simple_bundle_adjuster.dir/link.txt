@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/simple_bundle_adjuster.dir/simple_bundle_adjuster.o  -o simple_bundle_adjuster -lceres 

@@ -12,7 +12,7 @@
 
 [博客](https://www.cnblogs.com/gaoxiang12/p/5137454.html#4500852)
 
-
+贝叶斯定理参考[博客](https://blog.csdn.net/jiangjiang_jian/article/details/81346797)
 
 g2o优化库
 
@@ -90,6 +90,44 @@ optimizer.optimize(100);
 5. 定义图的顶点和边. 并添加到SparseOptimizer中
 
 6. 设置优化参数,开始执行优化.
+
+### 第二部分 SLAM系统
+
+#### 前端
+
+#### 后端
+
+#### 1.滤波器后端
+
+后端(Backend)
+
+​		从带噪声的数据估计内在状态---状态估计问题
+
+​		Estimated the inner state from noisy data
+
+渐进式(Incremental)      
+
+​		a.保持当前状态的估计, 在加入新信息时, 更新已有的估计(滤波)
+
+​		b.线性系统+高斯噪声=卡尔曼滤波器
+
+​		c.非线性系统+高斯噪声+线性近似 = 扩展卡尔曼
+
+​		d.非线性系统+非高斯噪声+非参数化=粒子滤波器(slam中很少使用,所需要的粒子的数量是指数级增长的)
+
+​		e.Sliding window fiter & mutiple stats Kalman(MSCKF) 滑动窗口
+
+批量式(Batch)
+
+​		给定一定规模的数据, 计算该数据下的最优估计(优化)
+
+
+
+高斯分布的线性变换
+
+
+
+
 
 ## 激光slam
 

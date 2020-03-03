@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69d9597e-7099-4dc7-b053-95f621b511f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ch07/g2o_ba_example/.idea/g2o_ba_example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch07/pose_estimation_3d3d/.idea/pose_estimation_3d3d.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slam学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slam学习笔记.md" afterDir="false" />
-    </list>
+    <list default="true" id="69d9597e-7099-4dc7-b053-95f621b511f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582773338196</updated>
-      <workItem from="1582773340188" duration="5018000" />
+      <workItem from="1582773340188" duration="5648000" />
     </task>
     <servers />
   </component>

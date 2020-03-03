@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ellipse_approximation.dir/ellipse_approximation.o  -o ellipse_approximation -lceres 

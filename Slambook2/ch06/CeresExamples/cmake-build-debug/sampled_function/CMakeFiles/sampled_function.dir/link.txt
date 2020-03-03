@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/sampled_function.dir/sampled_function.o  -o sampled_function -lceres 

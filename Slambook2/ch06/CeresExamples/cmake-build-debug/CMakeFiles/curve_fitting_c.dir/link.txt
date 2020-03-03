@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/curve_fitting_c.dir/curve_fitting.o  -o curve_fitting_c -lceres -lm 

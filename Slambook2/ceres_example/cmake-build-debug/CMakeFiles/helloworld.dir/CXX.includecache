@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zpw/github/SLAM/Slambook2/ceres_example/helloworld.cpp
+ceres/ceres.h
+/home/zpw/github/SLAM/Slambook2/ceres_example/ceres/ceres.h
+glog/logging.h
+/home/zpw/github/SLAM/Slambook2/ceres_example/glog/logging.h
+

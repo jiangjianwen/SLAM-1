@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/helloworld.dir/helloworld.o  -o helloworld -lceres 

@@ -1,0 +1,5 @@
+/home/zpw/software/clion/clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zpw/github/SLAM/Slambook2/ch08/optical_flow
+-- Found OpenCV: /usr/local/opencv4 (found version "4.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zpw/github/SLAM/Slambook2/ch08/optical_flow/cmake-build-debug

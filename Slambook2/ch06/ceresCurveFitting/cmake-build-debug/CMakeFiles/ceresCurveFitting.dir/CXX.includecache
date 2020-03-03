@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zpw/github/SLAM/slambook2/ch06/ceresCurveFitting/main.cpp
+/home/zpw/github/SLAM/Slambook2/ch06/ceresCurveFitting/main.cpp
 iostream
 -
 opencv2/core/core.hpp

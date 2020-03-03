@@ -1,4 +1,4 @@
-# Install script for directory: /home/zpw/github/SLAM/slambook2/ch06/ceresCurveFitting
+# Install script for directory: /home/zpw/github/SLAM/Slambook2/ch06/ceresCurveFitting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zpw/github/SLAM/slambook2/ch06/ceresCurveFitting/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zpw/github/SLAM/Slambook2/ch06/ceresCurveFitting/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

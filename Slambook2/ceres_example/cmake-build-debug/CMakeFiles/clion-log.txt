@@ -1,0 +1,20 @@
+/home/zpw/software/clion/clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zpw/github/SLAM/Slambook2/ceres_example
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+-- Detected gflags version: 2.2.1
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\sampled_function\;CMake Files\slam\;CMake Files\slam\pose_graph_2d\;CMake Files\slam\pose_graph_3d\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_bundle_adjuster">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/simple_bundle_adjuster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bundle_adjuster"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_bundle_adjuster/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/simple_bundle_adjuster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_bundle_adjuster/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robust_curve_fitting">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/robust_curve_fitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 robust_curve_fitting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robust_curve_fitting/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/robust_curve_fitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 robust_curve_fitting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ellipse_approximation">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/ellipse_approximation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ellipse_approximation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ellipse_approximation/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/ellipse_approximation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ellipse_approximation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld_numeric_diff">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld_numeric_diff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_numeric_diff"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld_numeric_diff/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld_numeric_diff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_numeric_diff/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld_analytic_diff">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld_analytic_diff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_analytic_diff"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld_analytic_diff/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld_analytic_diff" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld_analytic_diff/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve_fitting">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/curve_fitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 curve_fitting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve_fitting/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/curve_fitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 curve_fitting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosenbrock">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/rosenbrock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosenbrock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosenbrock/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/rosenbrock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosenbrock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve_fitting_c">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/curve_fitting_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 curve_fitting_c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve_fitting_c/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/curve_fitting_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 curve_fitting_c/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampled_function">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/sampled_function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 sampled_function"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampled_function/fast">
+				<Option output="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/sampled_function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 sampled_function/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/cmake-build-debug/sampled_function/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/curve_fitting.c">
+			<Option target="curve_fitting_c"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/curve_fitting.cc">
+			<Option target="curve_fitting"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/ellipse_approximation.cc">
+			<Option target="ellipse_approximation"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/helloworld.cc">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/helloworld_analytic_diff.cc">
+			<Option target="helloworld_analytic_diff"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/helloworld_numeric_diff.cc">
+			<Option target="helloworld_numeric_diff"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/robust_curve_fitting.cc">
+			<Option target="robust_curve_fitting"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/rosenbrock.cc">
+			<Option target="rosenbrock"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/sampled_function/sampled_function.cc">
+			<Option target="sampled_function"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/simple_bundle_adjuster.cc">
+			<Option target="simple_bundle_adjuster"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/sampled_function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sampled_function\"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/slam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\slam\"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/slam/pose_graph_2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\slam\pose_graph_2d\"/>
+		</Unit>
+		<Unit filename="/home/zpw/github/SLAM/Slambook2/ch06/CeresExamples/slam/pose_graph_3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\slam\pose_graph_3d\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
