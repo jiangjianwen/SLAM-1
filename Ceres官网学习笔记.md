@@ -73,7 +73,9 @@ Ceres可以解决边界约束鲁棒非线性最小二乘法优化问题,常常�
 
 己的光滑性质(使得整个优化过程结果更加稳健),所以又叫做鲁棒核函数(Robust Kernel) 
 
-![Image]([https://github.com/zhoupengwei/SLAM/blob/master/img-folder/%E6%A0%B8%E5%87%BD%E6%95%B0.png](https://github.com/zhoupengwei/SLAM/blob/master/img-folder/核函数.png)
+![Image]([https://github.com/zhoupengwei/SLAM/blob/master/img-folder/%E6%A0%B8%E5%87%BD%E6%95%B0.png](https://github.com/zhoupengwei/SLAM/blob/master/img-folder/核函数.png))
+
+
 
 注: 参考视觉slam后端优化
 
