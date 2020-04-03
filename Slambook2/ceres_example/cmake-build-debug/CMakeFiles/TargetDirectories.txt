@@ -1,3 +1,4 @@
 /home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug/CMakeFiles/helloworld.dir
 /home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug/CMakeFiles/helloworld.dir
+/home/zpw/github/SLAM/Slambook2/ceres_example/cmake-build-debug/CMakeFiles/helloworld_numeric_diff.dir

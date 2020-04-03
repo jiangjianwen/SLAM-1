@@ -1,0 +1,4 @@
+/home/zpw/github/SLAM/Slambook2/ch09/bundle_adjustment_g2o/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zpw/github/SLAM/Slambook2/ch09/bundle_adjustment_g2o/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zpw/github/SLAM/Slambook2/ch09/bundle_adjustment_g2o/cmake-build-debug/CMakeFiles/bal_common.dir
+/home/zpw/github/SLAM/Slambook2/ch09/bundle_adjustment_g2o/cmake-build-debug/CMakeFiles/bundle_adjustment_g2o.dir

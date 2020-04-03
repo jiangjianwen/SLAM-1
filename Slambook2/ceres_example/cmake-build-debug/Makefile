@@ -123,6 +123,19 @@ helloworld/fast:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+#=============================================================================
+# Target rules for targets named helloworld_numeric_diff
+
+# Build rule for target.
+helloworld_numeric_diff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloworld_numeric_diff
+.PHONY : helloworld_numeric_diff
+
+# fast build rule for target.
+helloworld_numeric_diff/fast:
+	$(MAKE) -f CMakeFiles/helloworld_numeric_diff.dir/build.make CMakeFiles/helloworld_numeric_diff.dir/build
+.PHONY : helloworld_numeric_diff/fast
+
 helloworld.o: helloworld.cpp.o
 
 .PHONY : helloworld.o
@@ -150,6 +163,33 @@ helloworld.cpp.s:
 	$(MAKE) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld.cpp.s
 .PHONY : helloworld.cpp.s
 
+helloworld_numeric_diff.o: helloworld_numeric_diff.cpp.o
+
+.PHONY : helloworld_numeric_diff.o
+
+# target to build an object file
+helloworld_numeric_diff.cpp.o:
+	$(MAKE) -f CMakeFiles/helloworld_numeric_diff.dir/build.make CMakeFiles/helloworld_numeric_diff.dir/helloworld_numeric_diff.cpp.o
+.PHONY : helloworld_numeric_diff.cpp.o
+
+helloworld_numeric_diff.i: helloworld_numeric_diff.cpp.i
+
+.PHONY : helloworld_numeric_diff.i
+
+# target to preprocess a source file
+helloworld_numeric_diff.cpp.i:
+	$(MAKE) -f CMakeFiles/helloworld_numeric_diff.dir/build.make CMakeFiles/helloworld_numeric_diff.dir/helloworld_numeric_diff.cpp.i
+.PHONY : helloworld_numeric_diff.cpp.i
+
+helloworld_numeric_diff.s: helloworld_numeric_diff.cpp.s
+
+.PHONY : helloworld_numeric_diff.s
+
+# target to generate assembly for a file
+helloworld_numeric_diff.cpp.s:
+	$(MAKE) -f CMakeFiles/helloworld_numeric_diff.dir/build.make CMakeFiles/helloworld_numeric_diff.dir/helloworld_numeric_diff.cpp.s
+.PHONY : helloworld_numeric_diff.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... helloworld"
 	@echo "... edit_cache"
+	@echo "... helloworld"
+	@echo "... helloworld_numeric_diff"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
+	@echo "... helloworld_numeric_diff.o"
+	@echo "... helloworld_numeric_diff.i"
+	@echo "... helloworld_numeric_diff.s"
 .PHONY : help
 
 

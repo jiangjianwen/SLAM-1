@@ -1,0 +1,4 @@
+/home/zpw/software/clion/clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zpw/github/SLAM/Slambook2/ch10/pose_graph_g2o_lie_algebra
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zpw/github/SLAM/Slambook2/ch10/pose_graph_g2o_lie_algebra/cmake-build-debug
