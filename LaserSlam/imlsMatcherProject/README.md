@@ -37,7 +37,7 @@ sudo ./install_quickstart.sh
 
 ​	PCL库安装, 参考[博客](https://blog.csdn.net/qq_40022890/article/details/100786946)
 
-​	OpenCV库的安装, 参考[博客](https://blog.csdn.net/new_delete_/article/details/84797041)
+​	OpenCV库的安装, [参考](https://github.com/zhoupengwei/SLAM/blob/master/OpenCV4.0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) 
 
 ​		安装一个消息包, 这个消息包需要将里面的ros版本换成你的ros系统版本, 如果是kinetic版本忽略
 
@@ -66,7 +66,7 @@ topic名称: imls_path_pub_, odom_path_pub_
 
 如果顺利的话, 你将看到如下结果	
 
-
+![Image](https://github.com/zhoupengwei/SLAM/blob/master/img-folder/imls-icp.png)
 
 
 
