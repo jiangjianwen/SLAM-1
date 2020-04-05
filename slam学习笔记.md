@@ -388,7 +388,7 @@ optimizer.addParameter ( camera );
 
 ## 激光slam
 
-
+使用SVD分解方法求解ICP问题参考[博客](http://www.liuxiao.org/2019/08/%e4%bd%bf%e7%94%a8-svd-%e6%96%b9%e6%b3%95%e6%b1%82%e8%a7%a3-icp-%e9%97%ae%e9%a2%98/)
 
 
 
