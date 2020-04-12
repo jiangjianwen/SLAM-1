@@ -237,7 +237,7 @@ public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 
     virtual void setToOriginImpl() override {
-        _estimate = Sophus::SE3d();
+        _estimate = Sophus::SE3d();  // 为优化变量设定初始值
     }
 
     // left multiplication on SE3 左乘李代数的扰动模型来表示李代数的导数
@@ -250,7 +250,7 @@ public:
     virtual bool write(ostream &out) const override { }
 };
 
-// 定义边
+// 定义边 模版参数: 观测值维度(像素2维), 类型, 连接顶点类型
 class EdgeProjection : public g2o::BaseUnaryEdge<2, Eigen::Vector2d, VertexPose>{
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
@@ -262,8 +262,9 @@ public:
         Sophus::SE3d T = v->estimate();
         Eigen::Vector3d pos_pixel = _K * (T * _pos3d);
         pos_pixel /= pos_pixel[2];
-        _error = _measurement - pos_pixel.head<2>();
+        _error = _measurement - pos_pixel.head<2>();  // 误差等于观测值-预测值
     }
+    // 计算雅克比矩阵
     virtual void linearizeOplus() override {
         const VertexPose *v = static_cast<VertexPose *> (_vertices[0]);
         Sophus::SE3d T = v->estimate();
@@ -320,12 +321,12 @@ void bundleAdjustmentG2O(
     // edges
     int index = 1;
     for (size_t i = 0; i < points_2d.size(); i++){
-        auto p2d = points_2d[i];
-        auto p3d = points_3d[i];
+        auto p2d = points_2d[i]; // 第二个相机坐标系下面的测量值
+        auto p3d = points_3d[i]; // 第一个相机坐标系下的三维点的坐标
         EdgeProjection *edge = new EdgeProjection(p3d, K_eigen);
         edge->setId(index);
-        edge->setVertex(0, vertexPose);
-        edge->setMeasurement(p2d);
+        edge->setVertex(0, vertexPose);  // 0表示当前只有优化一个顶点
+        edge->setMeasurement(p2d); // 加入观测值
         edge->setInformation(Eigen::Matrix2d::Identity());
         optimizer.addEdge(edge);
         index++;

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zpw/github/SLAM/slambook2/ch06/g2oCurveFitting/main.cpp" "/home/zpw/github/SLAM/slambook2/ch06/g2oCurveFitting/cmake-build-debug/CMakeFiles/g2oCurveFitting.dir/main.cpp.o"
+  "/home/zpw/github/SLAM/Slambook2/ch06/g2oCurveFitting/main.cpp" "/home/zpw/github/SLAM/Slambook2/ch06/g2oCurveFitting/cmake-build-debug/CMakeFiles/g2oCurveFitting.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

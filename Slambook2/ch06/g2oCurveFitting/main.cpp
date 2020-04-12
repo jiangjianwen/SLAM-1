@@ -34,6 +34,7 @@ public:
 };
 
 // 误差模型 模版参数: 观测值维度, 类型, 连接顶点类型
+// BaseUnaryEdge是一个一元边即自己连接自己
 class CurveFittingEdge : public g2o::BaseUnaryEdge<1, double, CurveFittingVertex>{
 public:
     double _x;  // x值, y值为_measurement
@@ -55,8 +56,8 @@ public:
         _jacobianOplusXi[2] = -y;
     }
 
-    virtual bool read(std::istream& in){}
-    virtual bool write(std::ostream& out) const {}
+    bool read(std::istream& in) override{}
+    bool write(std::ostream& out) const override {}
 };
 
 int main() {
@@ -75,6 +76,7 @@ int main() {
     }
 
     // 构建图优化, 先设定g2o
+    // 声明误差项类型和求解器类型
     using BlockSolverType = g2o::BlockSolver<g2o::BlockSolverTraits<3, 1>>; // 每个误差项优化变量维度为3, 误差值维度为1
     using LinearSolverType = g2o::LinearSolverDense<BlockSolverType::PoseMatrixType>; // 线性求解器类型
 
@@ -82,21 +84,22 @@ int main() {
     auto solver = new g2o::OptimizationAlgorithmGaussNewton(
             g2o::make_unique<BlockSolverType >(g2o::make_unique<LinearSolverType >())
             );
+    // 创建一个稀疏优化器(SparseOptimizer)
     g2o::SparseOptimizer optimizer;     // 图模型
     optimizer.setAlgorithm(solver);     // 设置求解器
     optimizer.setVerbose(true);  // 打开调试输出
-
+    // 接下来向图中添加顶点和边
     // 向图中增加顶点
     CurveFittingVertex* v = new CurveFittingVertex();
-    v->setEstimate(Eigen::Vector3d(ae, be, ce));
-    v->setId(0);
+    v->setEstimate(Eigen::Vector3d(ae, be, ce));  // 设置估计值
+    v->setId(0);   // 顶点的id标识, 方便后面和边连接
     optimizer.addVertex(v);
 
     // 往图中增加边
     for (int i = 0; i < N; i++){
-        CurveFittingEdge *edge = new CurveFittingEdge(xData[i]);
+        CurveFittingEdge *edge = new CurveFittingEdge(xData[i]);  // 每次创建一条边, 边的预测值就是前面的xData
         edge->setId(i);
-        edge->setVertex(0, v);         // 设置连接的顶点
+        edge->setVertex(0, v);         // 设置连接的顶点 由于这仅仅是一个一元边, 只连接了一个顶点因此第一个参数永远是0
         edge->setMeasurement(yData[i]);  // 观测数据
         edge->setInformation(Eigen::Matrix<double, 1, 1>::Identity() * 1 / (wSigma * wSigma));  // 信息矩阵: 协方差矩阵之逆
         optimizer.addEdge(edge);

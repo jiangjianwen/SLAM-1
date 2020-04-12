@@ -346,7 +346,7 @@ optimizer.addParameter ( camera );
 
 实践自定义PoseGraph进行优化
 
-
+列文伯格优化算法C++实现[网址](http://users.ics.forth.gr/~lourakis/levmar/)
 
 ### 第二部分 SLAM系统
 
